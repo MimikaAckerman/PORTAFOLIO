@@ -43,7 +43,7 @@ const Main = () => {
           </OpenBtn>
         </Center>
 
-        <Contact target="_blank" href="emily.herreragomez@gmail.com">
+        <Contact target="_blank" href="mailto:emily.herreragomez@gmail.com">
           <motion.h2
             initial={{
               y: -200,
