@@ -1,7 +1,7 @@
 import React from "react";
-import styled, { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components";
 import { lightTheme } from "../assets/themes/Themes";
-import { Design, Develope } from "../../src/assets/allSvgs/AllSvgs";
+import { Develope } from "../../src/assets/allSvgs/AllSvgs";
 
 import ParticleComponent from "../components/ParticleComponent/ParticleComponent";
 import BigTitle from "../components/BigTitle/BigTitlte";
@@ -13,12 +13,12 @@ import {
   Description,
 } from "../assets/StyledComponent/MySkillPageStyled";
 
-import BtnBack from '../components/BtnBack/BtnBack'
+import BtnBack from "../components/BtnBack/BtnBack";
 
 const MySkillsPage = () => {
   return (
     <ThemeProvider theme={lightTheme}>
-      <BtnBack/>
+      <BtnBack />
       <Box>
         <ParticleComponent theme="light" />
         <Main>

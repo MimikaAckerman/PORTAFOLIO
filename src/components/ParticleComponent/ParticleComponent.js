@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import ConfigDark from "../../config/particlesjs-config.json";
 import ConfigLight from "../../config/particlesjs-config-light.json";
 

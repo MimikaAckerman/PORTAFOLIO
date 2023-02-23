@@ -1,4 +1,4 @@
-import styled, { keyframes, ThemeProvider } from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 
 export const Box  = styled.div`
